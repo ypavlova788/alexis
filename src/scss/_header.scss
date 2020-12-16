@@ -1,0 +1,21 @@
+.header{
+  background-color: #fff;
+  .header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+  }
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  .list__item {
+    text-decoration: none;
+    color: #272727;
+    margin: 0 10px;
+  }
+}
