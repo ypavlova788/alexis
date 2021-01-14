@@ -1,10 +1,37 @@
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
 
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.container_mini {
+  max-width: 820px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 85px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.button{
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 180px;
+  background-color: #fc5f45;
+  border-radius: 25px;
+  text-align: center;
+  padding: 12px 20px;
 }
 
 @import 'header';
