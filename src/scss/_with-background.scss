@@ -1,0 +1,31 @@
+.with-background {
+  position: relative;
+}
+
+.with-background__number {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 273px;
+  line-height: 210px;
+  color: #e0e0e0;
+  opacity: 0.3;
+  position: absolute;
+  text-align: center;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+  top: 5px;
+  z-index: 0;
+}
+
+.with-background__content {
+  position: relative;
+  z-index: 1;
+}
+
+.with-background_left .with-background__number{
+  left: -10px;
+  margin-left: 0;
+  text-align: left;
+  z-index: 0;
+}

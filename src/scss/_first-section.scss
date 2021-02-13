@@ -1,40 +1,54 @@
-.first-section {
+.first-section{
+  background-color: #ffffff;
+  padding: 150px 0;
+}
+
+.first-section__inner {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-color: #3f4049;
-  min-height: 775px;
 }
 
 .first-section__title {
+  text-align: left;
   margin: 40px 0;
 }
 
-.first-section__button {
-  margin: 10px auto;
+.description{
+  position: relative;
+  width: 585px;
+  margin-left: -70px;
+  padding: 50px 40px 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  background: white;
 }
-.first-section__advantages{
-  margin: 80px 0;
+.text_inner{
+  margin: 30px 0;
+  font-size: 15px;
+  line-height: 27px;
+  color: #616161;
 }
-.advantages{
+.lines{
+  height: 3px;
   display: flex;
-  font-weight: 500;
-  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
-.advantages__img{
-  display: block;
-  margin: 0 auto 40px;
+.lines__item {
+  height: 100%;
+  flex-grow: 1;
 }
-.advantages__item {
-  width: 33%;
+
+.lines__red{
+  background-color: #fc5f45;
 }
-.green{
-color: #38c695;
+.lines__green{
+  background-color: #38c695;
 }
-.purple{
-color:#b27cf5 ;
+.lines__purple{
+  background-color: #b27cf5;
 }
-.gold{
-color:#feb960;
+.lines__gold{
+  background-color: #feb960;
 }

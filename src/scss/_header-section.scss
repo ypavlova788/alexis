@@ -1,0 +1,40 @@
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f4049;
+  min-height: calc(100vh - 75px);
+}
+
+.header-section__title {
+  margin: 40px 0;
+}
+
+.header-section__button {
+  margin: 10px auto;
+}
+.header-section__advantages{
+  margin: 80px 0;
+}
+.advantages{
+  display: flex;
+  font-weight: 500;
+  text-align: center;
+}
+.advantages__img{
+  display: block;
+  margin: 0 auto 40px;
+}
+.advantages__item {
+  width: 33%;
+}
+.green{
+color: #38c695;
+}
+.purple{
+color:#b27cf5 ;
+}
+.gold{
+color:#feb960;
+}
