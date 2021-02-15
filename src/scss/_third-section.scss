@@ -1,0 +1,17 @@
+.third-section{
+  padding: 100px 0;
+}
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px -10px 40px;
+}
+
+.portfolio__item {
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+  font-size: 0;
+  img {
+    width: 100%;
+  }
+}

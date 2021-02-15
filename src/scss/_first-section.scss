@@ -27,28 +27,4 @@
   line-height: 27px;
   color: #616161;
 }
-.lines{
-  height: 3px;
-  display: flex;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-.lines__item {
-  height: 100%;
-  flex-grow: 1;
-}
 
-.lines__red{
-  background-color: #fc5f45;
-}
-.lines__green{
-  background-color: #38c695;
-}
-.lines__purple{
-  background-color: #b27cf5;
-}
-.lines__gold{
-  background-color: #feb960;
-}

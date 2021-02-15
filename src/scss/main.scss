@@ -58,8 +58,20 @@ body {
   color: #616161;
 
 }
+.red{
+  color: #fc5f45;;
+}
+.green{
+  color: #38c695;
+}
+.purple{
+  color:#b27cf5 ;
+}
+.gold{
+  color:#feb960;
+}
 
-
+@import 'lines';
 @import 'with-background';
 @import 'header';
 @import 'header-section';
@@ -67,3 +79,4 @@ body {
 @import 'second-section';
 @import 'video-section';
 @import 'third-section';
+@import 'fourth-section';
