@@ -1,0 +1,17 @@
+.stats{
+  background: url("../img/stats/stats-background.jpg") center;
+  background-size: cover;
+  padding: 135px 0;
+}
+.stats__item{
+}
+.stats__inner{
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+}
+.quantity{
+  margin: 20px 0;
+  font-size: 20px;
+  color: #ffffff;
+}
