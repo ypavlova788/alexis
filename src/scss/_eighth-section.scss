@@ -1,0 +1,44 @@
+.eighth-section{
+  background-color: #fff;
+  padding: 100px 0;
+}
+.whyselectus{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -35px;
+}
+.whyselectus__item{
+  flex-basis: calc(33.33% - 70px);
+  margin: 30px 35px;
+}
+.whyselectus__title{
+  width: 142px;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.whyselectus__text{
+  font-size: 15px;
+  color: #616161;
+}
+.whyselectus__head{
+  display: flex;
+  margin-bottom: 35px;
+}
+.eighth-section__button{
+
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 180px;
+  background-color: #fc5f45;
+  border-radius: 25px;
+  text-align: center;
+  margin-left:20px;
+  padding: 12px 20px;
+}
+.get-started{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
