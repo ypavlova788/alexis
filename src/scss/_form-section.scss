@@ -1,0 +1,39 @@
+.form-section {
+  background-color: #bebcbc;
+  padding: 100px 0;
+}
+.form {
+  width: 750px;
+  margin: 70px auto;
+}
+.form__line {
+  display: flex;
+  margin: 24px 0;
+}
+.form__input,
+.form__textarea {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  flex-grow: 1;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px;
+  color: #616161;
+  margin-right: 30px;
+  &:focus {
+    outline: none;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+.form__textarea {
+  height: 200px;
+}
+.form__button{
+  margin: 50px auto;
+  display: block;
+}

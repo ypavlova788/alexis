@@ -48,6 +48,7 @@ body {
   border-radius: 25px;
   text-align: center;
   padding: 12px 20px;
+  border: none;
 }
 .subtitle{
   text-align: center;
@@ -130,3 +131,5 @@ body {
 @import 'eighth-section';
 @import 'ninth-section';
 @import 'subscribe-section';
+@import 'form-section';
+@import 'footer';

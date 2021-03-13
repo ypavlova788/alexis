@@ -23,6 +23,7 @@
   border: 2px solid #efefef;
   border-right-width: 0;
   border-radius: 25px 0 0 25px;
+
   &:focus {
     outline: none;
     border-color: #dedede;
@@ -30,9 +31,14 @@
 }
 
 .form-subscribe__button {
+  border: none;
   border-radius: 0 25px 25px 0;
   background-color: #fc5f45;
   color: #ffffff;
   font-size: 16px;
   padding: 18px 32px;
+
+  &:focus {
+    outline: none;
+  }
 }
