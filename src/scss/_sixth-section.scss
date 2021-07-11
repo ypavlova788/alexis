@@ -1,6 +1,7 @@
 .sixth-section {
   padding: 100px 0;
   background-color: #f7f7f7;
+  overflow: hidden;
 }
 
 .price {
@@ -69,6 +70,7 @@
 
 .sixth-section__button {
   margin: 10px auto;
+  cursor: pointer;
 }
 
 .button__green {
@@ -84,6 +86,11 @@
   text-align: center;
   padding: 12px 20px;
   margin: 40px auto;
+  transition: 0.2s;
+  &:hover {
+    color: white;
+    background-color: #38c695;
+  }
 }
 
 .button__red {
@@ -98,6 +105,11 @@
   text-align: center;
   padding: 12px 20px;
   margin: 40px auto;
+  transition: 0.2s;
+  &:hover {
+    color: white;
+    background-color: #fc5f45;
+  }
 }
 .button__purple{
   box-sizing: border-box;
@@ -111,6 +123,11 @@
   text-align: center;
   padding: 12px 20px;
   margin: 40px auto;
+  transition: 0.2s;
+  &:hover {
+    color: white;
+    background-color: #b27cf5;
+  }
 }
 
 .green__circle {
@@ -124,3 +141,13 @@
 .purple__circle {
   background-color: #b27cf5;
 }
+@media (max-width: $screen-lg-max){
+  .price{
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 400px;
+  }
+}
+
+

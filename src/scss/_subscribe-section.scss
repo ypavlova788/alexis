@@ -42,3 +42,13 @@
     outline: none;
   }
 }
+
+@media (max-width: $screen-lg-max) {
+  .subscribe-section {
+    padding: 50px 10px;
+  }
+  .form-subscribe__input {
+    max-width: 300px;
+    width: 100%;
+  }
+}

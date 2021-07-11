@@ -1,9 +1,11 @@
 .header-section {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #3f4049;
+  background: url("../img/header-background.jpg") top center;
+  background-size: cover;
   min-height: calc(100vh - 75px);
 }
 

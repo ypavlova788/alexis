@@ -1,9 +1,19 @@
 .seventh-section{
   background-color: #3f4049;
   padding: 100px 0;
+  overflow: hidden;
+  background: url("../img/testimonials-background.jpg") top center;
+  background-size: cover;
 }
 .testimonials{
   display: flex;
+}
+.testimonials__img {
+  width: 384px;
+  min-width: 384px;
+  img {
+    width: 100%;
+  }
 }
 .testimonials__description{
   position: relative;
@@ -21,4 +31,17 @@
 }
 .testimonials__subtitle{
   font-size: 13px;
+}
+
+@media  (max-width: $screen-lg-max){
+  .testimonials{
+    flex-direction: column;
+  }
+  .testimonials__img{
+    margin: 0 auto;
+    align-items: center;
+    max-width: 384px;
+    width: 100%;
+    min-width: auto;
+  }
 }

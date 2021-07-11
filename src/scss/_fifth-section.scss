@@ -2,6 +2,7 @@
   background-color: #ffffff;
   padding: 100px 0;
   position: relative;
+  overflow: hidden;
 }
 
 .step-card-list {
@@ -46,10 +47,21 @@
   margin-right: auto;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   z-index: 1;
+  left: -100%;
+  transition: left 0.5s;
+  &.opened {
+    left: 0;
+  }
 }
 .step-card__content_right {
   margin-right: 0;
   margin-left: auto;
+  left: auto!important;
+  right: -100%;
+  transition: right 0.5s;
+  &.opened {
+    right: 0;
+  }
 }
 .step__number {
   position: absolute;
@@ -73,4 +85,26 @@
   font-size: 15px;
   line-height: 27px;
   color: #616161;
+}
+@media  (max-width: $screen-md-max){
+  .step-card {
+    max-width: 556px;
+    margin: 0 auto;
+    &:before {
+      display: block;
+      width: 100%;
+      padding-bottom: 54%;
+      position: relative;
+      left: auto;
+      top: auto;
+      bottom: auto;
+      z-index: 1;
+
+    }
+  }
+  .step-card__content {
+    width: auto;
+    margin: 15px auto!important;
+    top: 0;
+  }
 }

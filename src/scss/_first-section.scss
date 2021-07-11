@@ -1,6 +1,7 @@
 .first-section{
   background-color: #ffffff;
   padding: 150px 0;
+  overflow: hidden;
 }
 
 .first-section__inner {
@@ -14,12 +15,21 @@
 }
 
 .description{
+  overflow: hidden;
   position: relative;
   width: 585px;
   margin-left: -70px;
   padding: 50px 40px 70px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   background: white;
+}
+.description__image {
+  font-size: 0;
+  max-width: 555px;
+  width: 100%;
+  img {
+    width: 100%;
+  }
 }
 .text_inner{
   margin: 30px 0;
@@ -28,3 +38,14 @@
   color: #616161;
 }
 
+@media (max-width: $screen-lg-max) {
+  .first-section__inner{
+    flex-direction: column;
+  }
+  .description{
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 665px;
+  }
+}

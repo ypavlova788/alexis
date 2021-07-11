@@ -1,5 +1,7 @@
 .form-section {
-  background-color: #bebcbc;
+  overflow: hidden;
+  background: url("../img/get-in-touch-background.jpg") top center;
+  background-size: cover;
   padding: 100px 0;
 }
 .form {
@@ -32,8 +34,22 @@
 }
 .form__textarea {
   height: 200px;
+  resize: none;
 }
 .form__button{
   margin: 50px auto;
   display: block;
+}
+@media  (max-width: $screen-sm-max){
+  .form__line{
+    flex-direction: column;
+    margin: 0;
+    > * {
+      margin-bottom: 12px;
+      margin-right: 0;
+    }
+  }
+  .form {
+    width: 100%;
+  }
 }

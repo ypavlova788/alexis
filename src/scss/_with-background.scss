@@ -29,3 +29,13 @@
   text-align: left;
   z-index: 0;
 }
+@media  (max-width: $screen-lg-max) {
+  .with-background__number {
+    font-size: 230px;
+  }
+}
+@media  (max-width: $screen-sm-max) {
+  .with-background__number {
+    font-size: 180px;
+  }
+}

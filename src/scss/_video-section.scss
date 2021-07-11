@@ -2,6 +2,9 @@
   background: #262732;
   text-align: center;
   padding: 115px 0;
+  overflow: hidden;
+  background: url("../img/video-background.jpg") top center;
+  background-size: cover;
 }
 
 .video-section__title{
@@ -12,6 +15,16 @@
   font-weight: 200;
   color: #ffffff;
 }
+.video-section__icon{
+  path {
+    fill: #38c695;
+    transition: fill 0.2s;
+  }
+  &:hover path {
+    fill: #068056;
+  }
+}
+
 .text_inner_white {
   margin: 25px 0;
   color: #ffffff;

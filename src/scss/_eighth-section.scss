@@ -1,6 +1,7 @@
 .eighth-section{
   background-color: #fff;
   padding: 100px 0;
+  overflow: hidden;
 }
 .whyselectus{
   display: flex;
@@ -41,4 +42,18 @@
   align-items: center;
   justify-content: center;
   display: flex;
+}
+@media (max-width: $screen-lg-max) {
+  .whyselectus{
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: $screen-lg-max) {
+  .get-started{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
 }

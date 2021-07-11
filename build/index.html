@@ -2,37 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <title>Alexis</title>
     <link href="css/main.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
             href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;600&family=Poppins:wght@400;500;600;800&display=swap"
             rel="stylesheet">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,shrink-to-fit=no" name="viewport">
 
 </head>
 <body>
 <header class="header">
     <div class="container header__inner">
+        <div class="header__burger burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         <a href="" class="logo">
             <img src="img/Logo.png">
         </a>
-        <div class="list">
-            <a class="list__item" href="">About Us</a>
-            <a class="list__item" href="">Our Focus</a>
-            <a class="list__item" href="">Portfolio</a>
-            <a class="list__item" href="">Our Team</a>
-            <a class="list__item" href="">Work Steps</a>
-            <a class="list__item" href="">Pricing</a>
-            <a class="list__item" href="">Testimonials</a>
-            <a class="list__item" href="">Blog</a>
-            <a class="list__item" href="">Contact</a>
+        <div class="header__list list">
+            <a class="list__item" href="#about-us">About Us</a>
+            <a class="list__item" href="#our-focus">Our Focus</a>
+            <a class="list__item" href="#our-works">Portfolio</a>
+            <a class="list__item" href="#our-team">Our Team</a>
+            <a class="list__item" href="#work-steps">Work Steps</a>
+            <a class="list__item" href="#pricing">Pricing</a>
+            <a class="list__item" href="#testimonials">Testimonials</a>
+            <a class="list__item" href="#blog">Blog</a>
+            <a class="list__item" href="#contact">Contact</a>
         </div>
     </div>
 </header>
 <section class="header-section">
     <div class="container container_mini">
         <h1 class="header-section__title title title_white title_regular">We design things with love and passion.</h1>
-        <div class="header-section__button button">OUR WORKS</div>
+        <a href="#our-works" class="header-section__button button">OUR WORKS</a>
         <div class="header-section__advantages advantages">
             <div class="advantages__item">
                 <img class="advantages__img" src="img/icon/dollar.png"/>
@@ -49,7 +56,7 @@
         </div>
     </div>
 </section>
-<section class="first-section">
+<section id ="about-us" class="first-section">
     <div class="container">
         <div class="first-section__inner">
             <div class="description__image">
@@ -79,7 +86,7 @@
         </div>
     </div>
 </section>
-<section class="second-section with-background">
+<section id ="our-focus" class="second-section with-background">
     <div class="with-background__number">02</div>
     <div class="with-background__content">
         <div class="container">
@@ -120,34 +127,43 @@
 </section>
 <section class="video-section">
     <div class="video-section__title">Explore Our Awesomeness</div>
-    <img src="img/icon/video_button.png"/>
+    <a href="https://www.youtube.com/watch?v=t87xtxKd0HY">
+        <svg
+                class="video-section__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="80px" height="80px">
+            <path fill-rule="evenodd"
+                  d="M34.687,25.311 L52.499,39.62 L52.499,40.937 L34.687,54.687 L32.499,53.749 L32.499,26.249 L34.687,25.311 ZM34.999,51.249 L49.218,39.999 L34.999,28.749 L34.999,51.249 ZM79.999,39.999 C79.999,51.41 76.93,60.468 68.281,68.280 C60.468,76.93 51.40,79.999 39.999,79.999 C28.957,79.999 19.531,76.93 11.718,68.280 C3.906,60.468 0.0,51.41 0.0,39.999 C0.0,28.959 3.906,19.531 11.718,11.718 C19.531,3.906 28.957,0.0 39.999,0.0 C51.40,0.0 60.468,3.906 68.281,11.718 C76.93,19.531 79.999,28.959 79.999,39.999 ZM77.499,39.999 C77.499,29.792 73.852,20.936 66.562,13.436 C59.62,6.146 50.207,2.499 39.999,2.499 C29.789,2.499 20.937,6.146 13.437,13.436 C6.144,20.936 2.499,29.792 2.499,39.999 C2.499,50.209 6.144,59.61 13.437,66.561 C20.937,73.854 29.789,77.499 39.999,77.499 C50.207,77.499 59.62,73.854 66.562,66.561 C73.852,59.61 77.499,50.209 77.499,39.999 Z"/>
+        </svg>
+    </a>
     <div class="text_inner text_inner_white">Click to play the video</div>
 </section>
-<section class="third-section with-background">
+<section id="our-works" class="third-section with-background">
     <div class="with-background__number">03</div>
     <div class="with-background__content">
         <div class="container">
             <div class="title">Portfolio</div>
             <div class="subtitle">We understand your requirement and provide quality works.</div>
             <div class="portfolio">
-                <div class="portfolio__item"><img src="img/image/portfolio/item1.jpg" alt="Portfolio 1"></div>
-                <div class="portfolio__item"><img src="img/image/portfolio/item2.jpg" alt="Portfolio 2"></div>
-                <div class="portfolio__item"><img src="img/image/portfolio/item3.jpg" alt="Portfolio 3"></div>
-                <div class="portfolio__item"><img src="img/image/portfolio/item4.jpg" alt="Portfolio 4"></div>
-                <div class="portfolio__item"><img src="img/image/portfolio/item5.jpg" alt="Portfolio 5"></div>
-                <div class="portfolio__item"><img src="img/image/portfolio/item6.jpg" alt="Portfolio 6"></div>
-                <div class="portfolio__item"><img src="img/image/portfolio/item7.jpg" alt="Portfolio 7"></div>
-                <div class="portfolio__item"><img src="img/image/portfolio/item8.jpg" alt="Portfolio 8"></div>
-                <div class="portfolio__item"><img src="img/image/portfolio/item9.jpg" alt="Portfolio 9"></div>
+                <div class="portfolio__item"><a href="#"><img src="img/image/portfolio/item1.jpg" alt="Portfolio 1"></a></div>
+                <div class="portfolio__item"><a href="#"><img src="img/image/portfolio/item2.jpg" alt="Portfolio 2"></a></div>
+                <div class="portfolio__item"><a href="#"><img src="img/image/portfolio/item3.jpg" alt="Portfolio 3"></a></div>
+                <div class="portfolio__item"><a href="#"><img src="img/image/portfolio/item4.jpg" alt="Portfolio 4"></a></div>
+                <div class="portfolio__item"><a href="#"><img src="img/image/portfolio/item5.jpg" alt="Portfolio 5"></a></div>
+                <div class="portfolio__item"><a href="#"><img src="img/image/portfolio/item6.jpg" alt="Portfolio 6"></a></div>
+                <div class="portfolio__item"><a href="#"><img src="img/image/portfolio/item7.jpg" alt="Portfolio 7"></a></div>
+                <div class="portfolio__item"><a href="#"><img src="img/image/portfolio/item8.jpg" alt="Portfolio 8"></a></div>
+                <div class="portfolio__item"><a href="#"><img src="img/image/portfolio/item9.jpg" alt="Portfolio 9"></a></div>
             </div>
         </div>
     </div>
 </section>
-<section class="fourth-section with-background">
+<section id="our-team" class="fourth-section with-background">
     <div class="with-background__number">04</div>
     <div class="with-background__content">
         <div class="container">
-            <div class="title">Portfolio</div>
+            <div class="title">Our Team</div>
             <div class="subtitle">We understand your requirement and provide quality works.</div>
             <div class="team">
                 <div class="team__item"><img src="img/image/team/image1.jpg">
@@ -181,13 +197,17 @@
                         bandwidth twitter ownership success disruptive series A financing user experience buyer client
                         social proof validation hypotheses. User experience crowdfunding
                         facebook seed round A/B testing mass market.
-                        <img class="about__share" src="img/icon/share.png">
                     </div>
-                    <div class="link">
-                        <div class="link__item"><img src="img/link/facebook.png">Facebook</div>
-                        <div class="link__item"><img src="img/link/twitter.png">Twitter</div>
-                        <div class="link__item"><img src="img/link/linkedin.png">Linkedin</div>
-                        <div class="link__item"><img src="img/link/instagram.png">Instagram</div>
+                    <div class="about__share share">
+                        <div class="share__icon">
+                            <img src="img/icon/share.png">
+                        </div>
+                        <div class="share__links links">
+                            <div class="links__item"><img src="img/link/facebook.png"><a href="#">Facebook</a></div>
+                            <div class="links__item"><img src="img/link/twitter.png"><a href="#">Twitter</a></div>
+                            <div class="links__item"><img src="img/link/linkedin.png"><a href="#">Linkedin</a></div>
+                            <div class="links__item"><img src="img/link/instagram.png"><a href="#">Instagram</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -222,7 +242,7 @@
 
     </div>
 </section>
-<section class="fifth-section with-background">
+<section id="work-steps"class="fifth-section with-background">
     <div class="with-background__number">05</div>
     <div class="with-background__content">
         <div class="container">
@@ -277,7 +297,7 @@
         </div>
     </div>
 </section>
-<section class="sixth-section with-background">
+<section id="pricing"class="sixth-section with-background">
     <div class="with-background__number">06</div>
     <div class="with-background__content">
         <div class="container">
@@ -298,7 +318,7 @@
                     <div class="price__text"><img src="img/icon/text-check.png" alt="check"> Secure Platform</div>
                     <div class="price__text"><img src="img/icon/text-check.png" alt="check"> 24/7 Customer Support</div>
                     <div class="price__text"><img src="img/icon/text-check.png" alt="check"> Fast & Reliable</div>
-                    <div class="sixth-section__buttton button__green">GET STARTED</div>
+                    <div class="sixth-section__button button__green">GET STARTED</div>
                 </div>
                 <div class="price__item ">
                     <div class="price__line lines__red"></div>
@@ -312,10 +332,10 @@
                     <div class="price__text"><span class="bold">Unlimited</span> Files Per Day</div>
                     <div class="price__text"><span class="bold">10TB</span> Monthly Bandwidth</div>
                     <div class="price__text"><img src="img/icon/text-check.png" alt="check"> Secure Platform</div>
-                    <div class="price__text"><img src="img/icon/text-check.png" alt="check"> 24/7 Customer Support
+                    <div class="price__text"><img src="img/icon/text-check.png" alt="check"> 24/7 Customer Support
                     </div>
                     <div class="price__text"><img src="img/icon/text-check.png" alt="check"> Fast & Reliable</div>
-                    <div class="sixth-section__buttton button__red">GET STARTED</div>
+                    <div class="sixth-section__button button__red">GET STARTED</div>
                 </div>
                 <div class="price__item">
                     <div class="price__line lines__purple"></div>
@@ -328,24 +348,24 @@
                     <div class="price__text"><span class="bold">20</span> Files Per Day</div>
                     <div class="price__text"><span class="bold">2TB</span> Monthly Bandwidth</div>
                     <div class="price__text"><img src="img/icon/text-check.png" alt="check"> Secure Platform</div>
-                    <div class="price__text"><img src="img/icon/text-check.png" alt="check"> 24/7 Customer Support
+                    <div class="price__text"><img src="img/icon/text-check.png" alt="check"> 24/7 Customer Support
                     </div>
                     <div class="price__text"><img src="img/icon/text-check.png" alt="check"> Fast & Reliable</div>
-                    <div class="sixth-section__buttton button__purple">GET STARTED</div>
+                    <div class="sixth-section__button button__purple">GET STARTED</div>
                 </div>
 
             </div>
         </div>
     </div>
 </section>
-<section class="seventh-section with-background">
+<section id="testimonials" class="seventh-section with-background">
     <div class="with-background__number">07</div>
     <div class="with-background__content">
         <div class="container">
             <h2 class="title title_white">Testimonials</h2>
             <p class="subtitle">We understand your requirement and provide quality works.</p>
             <div class="testimonials">
-                <div><img src="img/testimonials/testimonial-img.jpg"></div>
+                <div class="testimonials__img"><img src="img/testimonials/testimonial-img.jpg"></div>
                 <div class="testimonials__description">Deployment ownership non-disclosure agreement vesting period
                     crowdfunding
                     success influencer partnership equity series A financing network effects user
@@ -436,7 +456,7 @@
         </div>
     </div>
 </section>
-<section class="ninth-section with-background">
+<section id="blog" class="ninth-section with-background">
     <div class="with-background__number">09</div>
     <div class="with-background__content">
         <div class="container">
@@ -459,8 +479,8 @@
                                 screen area
                             </div>
                             <div class="our-blog__subtitle">Traction seed money infographic accelerator pivot value
-                                proposition ownership business-to-consumer iteration market analytics paradigm <span
-                                        class="our-blog__link">Read Full Article »</span></div>
+                                proposition ownership business-to-consumer iteration market analytics paradigm <a href="#"
+                                        class="our-blog__link">Read Full Article »</a></div>
                             <div class="lines lines__red"></div>
                         </div>
                     </div>
@@ -473,8 +493,8 @@
                         </div>
                         <div class="our-blog__title">Google Street View adds virtual reality support</div>
                         <div class="our-blog__subtitle">Traction seed money infographic accelerator pivot value
-                            proposition ownership business-to-consumer iteration market analytics paradigm <span
-                                    class="our-blog__link">Read Full Article »</span></div>
+                            proposition ownership business-to-consumer iteration market analytics paradigm <a href="#"
+                                    class="our-blog__link">Read Full Article »</a></div>
                         <div class="lines lines__green"></div>
                     </div>
                     <div class="our-blog__items">
@@ -484,8 +504,8 @@
                         </div>
                         <div class="our-blog__title">Google Street View adds virtual reality support</div>
                         <div class="our-blog__subtitle">Traction seed money infographic accelerator pivot value
-                            proposition ownership business-to-consumer iteration market analytics paradigm <span
-                                    class="our-blog__link">Read Full Article »</span></div>
+                            proposition ownership business-to-consumer iteration market analytics paradigm <a href="#"
+                                    class="our-blog__link">Read Full Article »</a></div>
                         <div class="lines lines__purple"></div>
                     </div>
                     <div class="our-blog__items">
@@ -495,8 +515,8 @@
                         </div>
                         <div class="our-blog__title">Google Street View adds virtual reality support</div>
                         <div class="our-blog__subtitle">Traction seed money infographic accelerator pivot value
-                            proposition ownership business-to-consumer iteration market analytics paradigm <span
-                                    class="our-blog__link">Read Full Article »</span></div>
+                            proposition ownership business-to-consumer iteration market analytics paradigm <a href="#"
+                                    class="our-blog__link">Read Full Article »</a></div>
                         <div class="lines lines__gold"></div>
                     </div>
                 </div>
@@ -511,7 +531,7 @@
         <button class="form-subscribe__button">SUBSCRIBE NOW</button>
     </form>
 </section>
-<section class="form-section with-background">
+<section id="contact" class="form-section with-background">
     <div class="with-background__number">10</div>
     <div class="with-background__content">
         <div class="container">
@@ -533,45 +553,47 @@
             </form>
         </div>
     </div>
-</section>
-<footer class="footer">
     <div class="container">
-    <div class="footer__block">
-        <div class="footer__item footer__item__inner">
-            <img class="footer__logo" src="img/footer/Alexis.png">
-        </div>
+        <footer class="footer">
+            <div class="footer__block">
+                <div class="footer__item footer__item__inner">
+                    <a href="#"><img class="footer__logo" src="img/footer/Alexis.png"></a>
+                </div>
 
-        <div class="footer__item footer__item__inner">
-            <div class="footer__title green">Alexis LLC.</div>
-            <div class="footet__text">
-                4125 Brighton Circle Road
-                Little Falls, MN 56345
+                <div class="footer__item footer__item__inner">
+                    <div class="footer__title green">Alexis LLC.</div>
+                    <div class="footet__text">
+                        4125 Brighton Circle Road
+                        Little Falls, MN 56345
+                    </div>
+                </div>
+                <div class="footer__item footer__item__inner">
+                    <div class="footer__title purple">Alexis LLC UK.</div>
+                    <div class="footet__text">
+                        81 Golden Knowes Road
+                        FRESHFIELD L37 6TP
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__title gold">Follow Us.</div>
+                    <div class="footer__link">
+                        <a href="#"><img src="img/footer/facebook.png"></a>
+                        <a href="#"><img src="img/footer/twitter.png"></a>
+                        <a href="#"><img src="img/footer/instagram.png"></a>
+                        <a href="#"><img src="img/footer/google.png"></a>
+                    </div>
+                </div>
+                <div class="lines">
+                    <div class="lines__item lines__red"></div>
+                    <div class="lines__item lines__green"></div>
+                    <div class="lines__item lines__purple"></div>
+                    <div class="lines__item lines__gold"></div>
+                </div>
             </div>
-        </div>
-        <div class="footer__item footer__item__inner">
-            <div class="footer__title purple">Alexis LLC UK.</div>
-            <div class="footet__text">
-                81 Golden Knowes Road
-                FRESHFIELD L37 6TP
-            </div>
-        </div>
-        <div class="footer__item">
-            <div class="footer__title gold">Follow Us.</div>
-            <div class="footer__link">
-                <img src="img/footer/facebook.png">
-                <img src="img/footer/twitter.png">
-                <img src="img/footer/instagram.png">
-                <img src="img/footer/google.png">
-            </div>
-        </div>
-        <div class="lines">
-            <div class="lines__item lines__red"></div>
-            <div class="lines__item lines__green"></div>
-            <div class="lines__item lines__purple"></div>
-            <div class="lines__item lines__gold"></div>
-        </div>
+        </footer>
     </div>
-    </div>
-</footer>
+</section>
+<script crossorigin="anonymous" src="./js/animate-scroll-to-hash.min.js"></script>
+<script crossorigin="anonymous" src="./js/main.js"></script>
 </body>
 </html>
