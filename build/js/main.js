@@ -65,3 +65,14 @@
 
 
 })();
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        items:1,
+        margin:20,
+        dots: true,
+    });
+
+
+    new WOW().init();
+});
