@@ -6,7 +6,9 @@
   justify-content: center;
   background: url("../img/header-background.jpg") top center;
   background-size: cover;
-  min-height: calc(100vh - 75px);
+  min-height: 100vh;
+  padding-top: 75px;
+  box-sizing: border-box;
 }
 
 .header-section__title {
